@@ -30,6 +30,7 @@ nav ul ul {
 	visibility: hidden;
 	font-size: 14px;
 	position: absolute;
+
 }
 
 nav ul li:hover > ul {
@@ -44,6 +45,24 @@ nav ul li:hover > ul {
 section{
 	text-align: center;
 }
+
+.first, .drop-down {	
+	list-style-type: none;
+}
+
+.drop-down {
+	width: 85px;
+	text-align: left;
+	padding: 2px;
+	color: white;
+}
+
+.drop-down li a {
+	text-decoration: none;
+	color: white;
+}
+
+
 article{
 	display: inline-block;
 	margin: 80px 20px 0 20px;
