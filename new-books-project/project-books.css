@@ -26,6 +26,11 @@ body {
 
 }
 
+.main-nav a {
+	text-decoration: none;
+	color: white;
+}
+
 nav ul ul { 
 	visibility: hidden;
 	font-size: 14px;
