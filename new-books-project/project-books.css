@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	background-image: url("background_books.png");
+	background-repeat: repeat-x;
+	background-color: #d5bfa0;
+}
+
+.main-nav {
+	display: inline-block;
+	font-size: 14px;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+	margin: 0 20px;
+	padding: 10px 0;
+	cursor: pointer;
+	color: white;
+
+}
+
+nav ul ul { 
+	visibility: hidden;
+	font-size: 14px;
+	position: absolute;
+}
+
+nav ul li:hover > ul {
+	display: inline-block;
+	visibility: visible;
+	background: #B49470;
+	list-style-type: none;
+	margin: auto;
+	border: 1px solid black;
+}
+
+section{
+	text-align: center;
+}
+article{
+	display: inline-block;
+	margin: 80px 20px 0 20px;
+	border: 5px solid #8F6446;
+	border-radius: 10px;
+	width: 20%;
+	box-shadow: 0px 0px 6px #000000;
+}
+ul{
+	padding: 0;
+}
+button{
+	background: #303030;
+	color: white;
+	padding: 15px 30px;
+	margin: 10px 0;
+	font-size: 0.9em;
+	cursor: pointer;
+	border: none;
+	border-radius: 20px;
+	text-transform: capitalize;
+}
+button:hover{
+	background: #B22222;
+	font-style: bold;
+}
+li{
+	list-style-type: none;
+	padding: 5px 0;
+
+}
+img{
+	width: 130px;
+	height: 200px;
+	box-sizing: border-box;
+
+}
+.logo{
+	width: 600px;
+	height: 170px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.fiction, .fantasy, .romance, .children{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    font-family: 'Shadows Into Light Two', cursive;
+	font-size: 26px;
+}
+article p{
+text-transform: capitalize;
+font-family: "Lato", sans-serif;
+}
+.dotting, .patriots, .autumn, .battersea, .chest, .wind, .christmas, .rafe, .fairytale, .bone, .maggie, .santa{
+	padding: 20px 10px;
+}
+.yellow {
+    color: yellow;
+}
+
+.grey {
+    color: grey;
+}
+footer {
+	background: #303030;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+
+footer img {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	margin: 5px;
+}
