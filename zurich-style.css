@@ -1,0 +1,83 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: #f2f1f1;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* Starting Header */
+
+nav a {
+  color: #f2f1f1;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+ul.navbar-nav a{
+  color: #f2f1f1;
+  font-size: 1.15em;
+  margin-left: 15px;
+}
+
+ul.navbar-nav a:hover{
+  color: #cd3039;
+  background-color: #f2f1f1;
+    border-radius: 3px;
+}
+
+header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f2f1f1;
+  background-color: #1e1e1e;
+}
+
+.index-text {
+  position: relative;
+  padding-top: 5%;
+}
+
+.index-text>h1 {
+  margin-top: -20px;
+  font-size: 2em;
+}
+
+.index-divider {
+  width: 400px;
+  border-top: 1px solid #cd3039;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.index-text>h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 1em;
+}
+
+@media(max-width:767px) {
+  .index-text {
+    padding-bottom: 15%;
+  }
+  .index-text>h1 {
+    font-size: 3em;
+  }
+  .index-divider {
+    width: 100%;
+  }
+}
+
+.github {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+/* End of Header */
+
+/* Starting Main Section */
