@@ -1,5 +1,4 @@
-Team project for SoftUni Course "Web Fundamentals"
-<hr />
+# Team project for SoftUni Course "Web Fundamentals"
 
 Collaborators:
 <br />
@@ -11,5 +10,4 @@ Collaborators:
 <br />
 <a href="https://github.com/Hala1892">Hala1892</a>
 
-<hr />
-To browse it, click <a href="https://zurich-team.github.io/New-Books-Releases/">here...</a>
+# To browse it, click <a href="https://zurich-team.github.io/New-Books-Releases/">here...</a>
