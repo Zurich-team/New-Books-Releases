@@ -7,10 +7,9 @@ body{
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
     text-align: justify;
 }
+
 
 nav {
     background-color: black;
@@ -22,7 +21,7 @@ nav {
     height: 100px;
     overflow: hidden;
     position: absolute;
-    top: 0px;
+    top: 0;
     left: -40px;
 }
 
@@ -30,14 +29,13 @@ nav {
     font: 12px 'Exo 2', sans-serif;
     font-weight: 600;
     color: #fff;
-    text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+    text-shadow: rgba(255,255,255,0.5) 0 1px 0;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     padding: 7px 30px;
     background-color: red;
-    color: #fff;
 }
 
 nav a {
@@ -58,6 +56,7 @@ nav a {
     height: 100px;
     margin: 0 auto;
     position: relative;
+    z-index: 800;
 }
 
 .main-nav li {
@@ -66,12 +65,10 @@ nav a {
     display: inline;
 }
 
-
 .main-nav li:hover a {
     border-radius: 5px;
     border-bottom: 2px solid red;
 }
-
 
 .inner-menu {
     display: none;
@@ -92,12 +89,12 @@ nav a {
     position: relative;
     width: 150px;
     top: 70px;
-    left: -30px;
+    left: -100px;
 }
-
 
 main {
     width: 1060px;
+    min-height: 75vh;
     margin: 0 auto;
 }
 
@@ -117,7 +114,7 @@ main section article {
 }
 
 section article:hover {
-    box-shadow: 0px 0px 58px -15px rgba(0,0,0,0.82);
+    box-shadow: 0 0 58px -15px rgba(0,0,0,0.82);
     cursor: pointer;
 }
 
@@ -127,4 +124,90 @@ footer {
     text-align: center;
     text-transform: uppercase;
     line-height: 100px;
+}
+
+
+/* Some css for contact page */
+
+form {
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-heading {
+    text-align: center;
+}
+
+i {
+    position: absolute;
+    top: 28px;
+    left: 5px;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+i.fa-user {
+    left: 10px;
+}
+
+form input {
+    letter-spacing: 2px;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    z-index: -1;
+}
+
+form span {
+    opacity: 0.8;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+form label {
+    display: block;
+    margin-bottom:5px;
+}
+
+form textarea {
+    padding: 10px 10px 10px 40px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+    letter-spacing: 2px;
+}
+
+::-webkit-input-placeholder {
+    font-family: "Exo 2", "Verdana", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ccc;
+    text-transform: lowercase;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+form .btn {
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+form .btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
