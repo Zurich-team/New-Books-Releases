@@ -5,6 +5,7 @@ body{
     font-family: "Exo 2", "Verdana", sans-serif;
     font-size: 16px;
     width: 100%;
+    background-color: #f2f1f1;
     margin: 0 auto;
     box-sizing: border-box;
     text-align: justify;
@@ -40,7 +41,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #f2f1f1;
 }
 
 .ribbon-green:before{
@@ -70,13 +71,19 @@ nav a {
     border-bottom: 2px solid red;
 }
 
+.main-nav li a.active {
+    border-radius: 5px;
+    border-bottom: 2px solid red;
+}
+
+
 .inner-menu {
     display: none;
     position: absolute;
 }
 
 .hidden-menu:hover .inner-menu {
-    color: white;
+    color: #f2f1f1;
     display: inline-block;
 }
 
@@ -84,7 +91,7 @@ nav a {
     background-color: black;
     line-height: normal;
     padding: 20px;
-    border: 1px solid white;
+    border: 1px solid #f2f1f1;
     display: block;
     position: relative;
     width: 150px;
@@ -119,7 +126,7 @@ section article:hover {
 }
 
 footer {
-    color: white;
+    color: #f2f1f1;
     background-color: black;
     text-align: center;
     text-transform: uppercase;
@@ -197,7 +204,7 @@ form textarea {
 }
 
 form .btn {
-    background-color: white;
+    background-color: #f2f1f1;
     text-transform: uppercase;
     font-weight: 600;
     border: 1px solid black;
@@ -208,6 +215,6 @@ form .btn {
 
 form .btn:hover {
     background-color: black;
-    color: white;
+    color: #f2f1f1;
     cursor: pointer;
 }
