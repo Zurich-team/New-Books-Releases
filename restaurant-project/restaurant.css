@@ -100,12 +100,17 @@ nav a {
 }
 
 main {
-    width: 1060px;
+    width: 100%;
     min-height: 75vh;
     margin: 0 auto;
 }
 
-main section article {
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+article {
     vertical-align: top;
     display: inline-block;
     width: 45%;
@@ -267,4 +272,33 @@ section > h3 {
 .validators img {
     margin: 0 10px;
     width: 10%;
+}
+
+@media screen and (max-width: 640px) {
+    article {
+        display: block;
+        width: 95%;
+        border-bottom: 2px solid lightgray;
+        border-radius: 10px;
+    }
+
+    .validators img {
+        width: 20%;
+    }
+}
+
+.menu-icon {
+    display: none;
+}
+@media screen and (max-width: 480px) {
+    .ribbon-wrapper-green {
+        top: 5px;
+    }
+
+    .main-nav li {
+        display: block;
+        margin: 5px auto;
+        padding: 0;
+        line-height: 20px;
+    }
 }

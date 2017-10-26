@@ -117,11 +117,10 @@ margin-top: 60px;
 .about-us-first .bio-text .vertical-line {
  display: block;
   width: 1px;
-  height: 80%;
+  height: 88%;
   background-color: #1e1e1e;
   position: absolute;
   left: 8%;
-  bottom: 25;
 }
 .about-us-second .bio-text .vertical-line {
  display: block;
@@ -130,7 +129,6 @@ margin-top: 60px;
   background-color: #f2f1f1;
   position: absolute;
   left: 92%;
-  bottom: 25;
 }
 .about-us-third .bio-text .vertical-line {
  display: block;
@@ -139,7 +137,6 @@ margin-top: 60px;
   background-color: #f2f1f1;
   position: absolute;
   left: 8%;
-  bottom: 25;
 }
 #about-us .bio-socials {
   padding-top: 15px;
@@ -388,15 +385,15 @@ color: #f2f1f1;
     content: '';
     position: absolute;
     transform: rotate(45deg);
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     bottom: -30px;
     left: 45px;
     border-style: solid;
     border-width: 15px;
     border-color: transparent;
     z-index: -1;
-    box-shadow: 3px -13px 5px 0px rgba(0, 0, 0, 0.18);
+    box-shadow: 3px -13px 5px 0 rgba(0, 0, 0, 0.18);
     border-left: 0;
 }
 
@@ -438,7 +435,7 @@ color: #f2f1f1;
   color: #f2f1f1;
 }
 .top-footer {
-    padding: 40px 0px;
+    padding: 40px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 .footer-title-line{
@@ -446,7 +443,7 @@ width: 100px;
 float:left;
   border-top: 2px solid #cd3039;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  margin-top: 0px;
+  margin-top: 0;
 }
 .quick-info {
   list-style: none;
@@ -489,7 +486,42 @@ float:left;
 }
 
 .footer-line {
-    padding: 30px 0px;
+    padding: 30px 0;
     color: #fff;
 }
 /*FOOTER OVEEEEEEER */
+
+@media screen and (max-width: 640px) {
+    .about-us-first > .container > .row > .col-lg-6.ml-auto.text-left {
+            text-align: right !important;
+        }
+
+    .about-us-first .bio-text .vertical-line {
+        left: 90%;
+    }
+
+    .about-us-first .bio-text{
+        margin-right: 10%;
+    }
+
+    .about-us-second > .container > .row > .col-lg-6.ml-auto.text-right {
+        order: 2;
+    }
+
+    .about-us-second > .container > .row > .col-lg-3.ml-auto.order-lg-1 {
+        order: 1;
+    }
+
+    .about-us-third > .container > .row > .col-lg-6.ml-auto.text-left {
+        text-align: right !important;
+    }
+
+    .about-us-third .bio-text {
+        margin-right: 12%;
+    }
+
+    .about-us-third .bio-text .vertical-line {
+        left: 90%;
+    }
+
+}
