@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acbf8aad-7523-40c0-a4cc-f00a35425e25" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restaurant-project/images/Space-Drinks-NASA-photo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restaurant-project/images/alien.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restaurant-project/images/bottle.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restaurant-project/images/maxresdefault.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restaurant-project/happy-delivery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/nd.jpg" afterPath="$PROJECT_DIR$/img/nd.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restaurant-project/images/menu-img.png" afterPath="$PROJECT_DIR$/restaurant-project/images/menu-img.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restaurant-project/contact.html" afterPath="$PROJECT_DIR$/restaurant-project/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restaurant-project/index.html" afterPath="$PROJECT_DIR$/restaurant-project/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restaurant-project/menu.html" afterPath="$PROJECT_DIR$/restaurant-project/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restaurant-project/restaurant.css" afterPath="$PROJECT_DIR$/restaurant-project/restaurant.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restaurant-project/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="267">
@@ -60,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="restaurant.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="restaurant.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restaurant-project/restaurant.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="259" column="1" lean-forward="true" selection-start-line="259" selection-start-column="1" selection-end-line="259" selection-end-column="1" />
+            <state relative-caret-position="262">
+              <caret line="224" column="1" lean-forward="true" selection-start-line="224" selection-start-column="1" selection-end-line="224" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -95,6 +84,7 @@
       <find>img-fluid</find>
       <find>white</find>
       <find>article</find>
+      <find>table-dish</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -392,7 +382,7 @@
       <workItem from="1508821248122" duration="5726000" />
       <workItem from="1508833279492" duration="113000" />
       <workItem from="1508843683702" duration="336000" />
-      <workItem from="1509025150772" duration="6333000" />
+      <workItem from="1509025150772" duration="6450000" />
     </task>
     <task id="LOCAL-00001" summary="Contact page almost done.&#10;Changes some links in navigation.">
       <created>1508831442877</created>
@@ -415,11 +405,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509027179442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="menu page changes&#10;home page changes">
+      <created>1509036975647</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1509036975647</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12821000" />
+    <option name="totallyTimeSpent" value="12938000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,7 +473,8 @@
     <MESSAGE value="readme.md changes" />
     <MESSAGE value="restaurant project - some css changes&#10;main project - add info about naskodaskalov" />
     <MESSAGE value="restaurant project - some css changes&#10;main project - added info about naskodaskalov" />
-    <option name="LAST_COMMIT_MESSAGE" value="restaurant project - some css changes&#10;main project - added info about naskodaskalov" />
+    <MESSAGE value="menu page changes&#10;home page changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu page changes&#10;home page changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -636,18 +634,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restaurant-project/restaurant.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="259" column="1" lean-forward="true" selection-start-line="259" selection-start-column="1" selection-end-line="259" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/restaurant-project/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="36" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant-project/restaurant.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="224" column="1" lean-forward="true" selection-start-line="224" selection-start-column="1" selection-end-line="224" selection-end-column="1" />
           <folding />
         </state>
       </provider>
