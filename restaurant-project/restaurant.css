@@ -258,3 +258,13 @@ iframe {
 section > h3 {
     display: none;
 }
+
+.validators {
+    margin: 0;
+    padding: 0;
+}
+
+.validators img {
+    margin: 0 10px;
+    width: 10%;
+}
