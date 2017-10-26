@@ -5714,6 +5714,7 @@ a.bg-danger:focus, a.bg-danger:hover {
 
 .bg-light {
   background-color: #cd3039 !important;
+  border-bottom: 1px solid #D9D9D9;
 }
 
 a.bg-light:focus, a.bg-light:hover {
